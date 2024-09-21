@@ -8,6 +8,6 @@ public class ArrayInput {
         for (int i = 0; i < size; i++) {
             arr[i] = scanner.nextInt();
         } 
-        
+        scanner.close();
     }
 }
