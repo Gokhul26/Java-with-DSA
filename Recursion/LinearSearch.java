@@ -37,6 +37,5 @@ public class LinearSearch {
         else{
             return searchIntLast(arr, target, index-1);
         }
-    
     }
     }
