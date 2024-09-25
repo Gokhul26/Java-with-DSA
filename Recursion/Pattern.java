@@ -29,6 +29,7 @@ public class Pattern {
         }else{
            
             triangle1(r-1, 0);
+
             System.out.println();
         }
     }
