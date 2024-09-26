@@ -1,4 +1,5 @@
 // HARD LEETCODE
+package Leetcode;
 class Solution {
     public int findInMountainArray(int target, MountainArray mountainArr) {
         int peak = peakElement(mountainArr);
