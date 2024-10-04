@@ -18,7 +18,6 @@ public class permutations {
             String first = processed.substring(0,i);
             String second = processed.substring(i, processed.length());
             perm(first + ch + second, unprocessed.substring(1));
-            
         }
     }
 
