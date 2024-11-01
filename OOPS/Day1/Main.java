@@ -1,7 +1,6 @@
+package OOPS.Day1;
+
 // import java.util.Arrays;
-
-
-
 public class Main {
     public static void main(String[] args) {
         Student goks = new Student(45,"gokhul.D",45.3f);
@@ -38,6 +37,10 @@ public class Main {
             obj = new A("Goks");   
         }
     }
+
+    public static void greeting(){
+        System.out.println("WELCOME");
+    }    
 }
 
 class Student{
