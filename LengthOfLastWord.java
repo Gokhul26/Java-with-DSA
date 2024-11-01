@@ -1,6 +1,6 @@
 // import java.util.Scanner;
 
-public class RollNo {
+public class LengthOfLastWord {
     public static void main(String[] args) {
    //     Scanner input = new Scanner(System.in);
    //  //    int num1 = input.nextInt();
