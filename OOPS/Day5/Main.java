@@ -1,4 +1,4 @@
-package OOPS.Day6;
+package OOPS.Day5;
 
 public class Main {
     public static void main(String[] args) {
