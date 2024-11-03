@@ -1,5 +1,7 @@
 package OOPS.Day3;
 
+import OOPS.Day4.accessModifiers;
+
 class Box {
     protected double length;
     double height;
@@ -34,3 +36,20 @@ class Box {
     }
 
 }
+
+
+class demo extends accessModifiers{
+    int num,sum;
+    demo(int num, int sum){
+        super(num,sum);
+        
+    }
+
+    public static void main(String[] args) {
+        demo a = new demo(3, 2);
+        int b = a.nums;
+
+    }
+}
+
+
