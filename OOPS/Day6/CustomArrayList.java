@@ -1,5 +1,5 @@
 package OOPS.Day6;
-
+// but here we can only store integers
 import java.util.Arrays;
 
 public class CustomArrayList {
