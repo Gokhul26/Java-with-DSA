@@ -46,6 +46,36 @@ public class DLL {
         node.prev = last;
         node.next = null;
     }
+
+    public Node find(int value){
+        Node node = new Node(value);
+        node = head;
+        while(node != null){
+            if(node.value == value){
+                return node;
+            }
+            node = node.next;
+        }
+        return null;
+    }
+
+    public void insert(int after, int value){
+        Node previous = find(after);
+        if(previous== null){
+            System.out.println("doesn't exist");
+            return;
+        }
+        Node node = new Node(value);
+        // previous.next = node;
+        node.next = previous.next;
+        previous.next = node;
+        node.prev = previous;
+        if(node.next != null){
+            node.next.prev = node;
+        }
+    }
+
+    // display the linkedlist
     public void display(){
         Node node = head;
         Node last = null;
@@ -58,23 +88,13 @@ public class DLL {
         System.out.println("END");
         //print in reverse
 
-        System.out.println("Print in reverse");
+        // System.out.println("Print in reverse");
 
-        while(last!= null){
-            System.out.print(last.value + " -> ");
-            last = last.prev;
-        }
+        // while(last!= null){
+        //     System.out.print(last.value + " -> ");
+        //     last = last.prev;
+        // }
 
-        System.out.println("START");
-
-
+        // System.out.println("START");
     }
-
-
-
-
-
-        
-
-
 }
