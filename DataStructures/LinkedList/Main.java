@@ -5,16 +5,18 @@ import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
-        // // Singly Linked LIst
-        // LL list = new LL();      
-        // list.insertFirst(3);
-        // list.insertFirst(5);
-        // list.insertFirst(13);
-        // list.insertFirst(2);
-        // list.insertlast(56);
-        // list.insert(100, 3);
+        // Singly Linked LIst
+        LL list = new LL();      
+        list.insertFirst(3);
+        list.insertFirst(5);
+        list.insertFirst(13);
+        list.insertFirst(2);
+        list.insertlast(56);
+        list.insert(100, 3);
         // list.insert(140, 6);  
-        // list.display();
+        list.display();
+        list.insertRec(89, 4);
+        list.display();
         // System.out.println(list.deleteFirst());
         // System.out.println(list.deleteLast());   
         //     list.display(); 
@@ -36,14 +38,14 @@ public class Main {
         // list.insert(3, 89);
         // list.display(); 
 
-        CLL list = new CLL();
-        list.insert(56);
-        list.insert(12);
-        list.insert(89);
-        list.insert(58);
-        list.display();
-        // System.out.println();
-        list.delete(12);
-        list.display();
+        // CLL list = new CLL();
+        // list.insert(56);
+        // list.insert(12);
+        // list.insert(89);
+        // list.insert(58);
+        // list.display();
+        // // System.out.println();
+        // list.delete(12);
+        // list.display();
     }
 }
