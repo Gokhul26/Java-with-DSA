@@ -8,14 +8,17 @@ public class Main {
         // Singly Linked LIst
         LL list = new LL();      
         list.insertFirst(3);
-        list.insertFirst(5);
+        list.insertFirst(3);
         list.insertFirst(13);
         list.insertFirst(2);
-        list.insertlast(56);
-        list.insert(100, 3);
-        // list.insert(140, 6);  
+        list.insertlast(22);
+        // list.insert(100, 3);
+        // // list.insert(140, 6);  
+        // list.display();
+        // list.insertRec(89, 4);
         list.display();
-        list.insertRec(89, 4);
+
+        list.duplicates();
         list.display();
         // System.out.println(list.deleteFirst());
         // System.out.println(list.deleteLast());   

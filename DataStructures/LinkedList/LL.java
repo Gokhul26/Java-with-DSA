@@ -140,6 +140,50 @@ public class LL {
         return -1;
    }
 
+   public void duplicates(){
+        Node node = head;
+
+        while(node.next != null){
+            if(node.val == node.next.val){
+                node.next = node.next.next;
+                size--;
+            }else{
+                node = node.next;
+            }
+        }
+        tail = node;
+        tail.next = null; 
+}
+
+    //Merge
+    public static LL merge(LL first, LL second){
+        Node f = first.head;
+        Node s = second.head;
+
+        LL ans = new LL();
+
+        while(f != null && s != null){
+            if(f.val < s.val){
+                ans.insertlast(f.val);
+                f = f.next;
+            }else{
+                ans.insertlast(s.val);
+                s = s.next;
+            }
+        }
+
+        while(f != null){
+            ans.insertlast(f.val);
+            f = f.next;
+        }
+        while(s != null){
+            ans.insertlast(s.val);
+            s = s.next;
+        }
+
+        return ans;
+    } 
+
     private class Node{
         private int val ;
         private Node next;
@@ -153,4 +197,25 @@ public class LL {
             this.next = next;
         }
     }
+
+    public static void main(String[] args) {
+        LL first = new LL();
+        LL second = new LL();
+
+        first.insertlast(1);
+        first.insertlast(1);
+        first.insertlast(3);
+
+        second.insertlast(4);
+        second.insertlast(6);
+        second.insertlast(8);
+        second.insertlast(14);
+
+        LL ans = merge(first, second);
+        ans.display();
+        }
 }
+
+
+//  problems
+
