@@ -106,4 +106,43 @@ public class BST {
         display(node.leftNode , "Left node of " + node.value + ": ");
         display(node.rightNode , "Right node of " + node.value + ": ");
     }
+
+    public void preOrder(){
+        preOrder(rootNode);
+    }
+    private void preOrder(Node node){
+        if(node == null){
+            return;
+        }
+
+        System.out.println(node.value);
+        preOrder(node.leftNode);
+        preOrder(node.rightNode);
+    }
+
+    public void inOrder(){
+        inOrder(rootNode);
+    }
+    private void inOrder(Node node){
+        if(node == null){
+            return;
+        }
+        
+        inOrder(node.leftNode);
+        System.out.println(node.value);
+        inOrder(node.rightNode);
+    }
+
+    public void postOrder(){
+        inOrder(rootNode);
+    }
+    private void postOrder(Node node){
+        if(node == null){
+            return;
+        }
+        
+        postOrder(node.leftNode);
+        postOrder(node.rightNode);
+        System.out.println(node.value);
+    }
 }
