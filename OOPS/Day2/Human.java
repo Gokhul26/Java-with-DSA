@@ -14,5 +14,11 @@ public class Human {
         this.salary = salary;
         Human.population += 1;
     }
+
+    public Human(int age) {
+        this.age = age;
+    }
+
+    
     
 }

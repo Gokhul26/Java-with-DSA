@@ -5,10 +5,11 @@ public class Main {
         Human goks = new Human(18, false, "Gokhul", 123455);
         Human gokhul = new Human(18, false, "Gokhul", 123455);
         System.out.println(Human.population);
+        Human goppu = new Human(12);
         
         Main obj = new Main();
-        
-        obj. fun1();
+        System.out.println(goppu.age);
+        obj.fun1();
     }
 
     void fun1(){
