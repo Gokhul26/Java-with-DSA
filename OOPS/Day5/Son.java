@@ -18,6 +18,6 @@ public class Son extends Parent {
     }
 
     void partner(){
-        System.out.println("I'm gonna marry the girl I love");
+        System.out.println("hell yeah");
     }
 }

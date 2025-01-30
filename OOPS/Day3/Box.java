@@ -37,7 +37,6 @@ class Box {
 
 }
 
-
 class demo extends accessModifiers{
     int num,sum;
     demo(int num, int sum){

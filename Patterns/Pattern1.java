@@ -3,52 +3,52 @@ package Patterns;
 public class Pattern1 {
     public static void main(String[] args) {
         // pattern1(6);
-        pattern13(4);
+        pattern5(5);
     }   
     
-    // static void pattern1(int n ){
-    //     for (int row = 1;row<=n;row++){
-    //         for(int col = 1;col<=row;col ++){
-    //             System.out.print("* ");
-    //         }
-    //         System.out.println();
-    //     }
-    // }
-    // static void pattern2(int n ){
-    //     for(int row = 1;row<=n;row++){
-    //         for(int col = 1;col<=n;col++){
-    //             System.out.print("* ");
-    //         }
-    //         System.out.println();
-    //     }
-    // }
-    // static void pattern3(int n ){
-    //         for (int row = 1;row<=n;row++){
-    //             for(int col = 1;col<= n-row+1;col ++){
-    //                 System.out.print("* ");
-    //             }
-    //             System.out.println();
-    //         }
-    //     }
+    static void pattern1(int n ){
+        for (int row = 1;row<=n;row++){
+            for(int col = 1;col<=row;col ++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    static void pattern2(int n ){
+        for(int row = 1;row<=n;row++){
+            for(int col = 1;col<=n;col++){
+                System.out.print("* ");
+            }
+            System.out.println();
+        }
+    }
+    static void pattern3(int n ){
+            for (int row = 1;row<=n;row++){
+                for(int col = 1;col<= n-row+1;col ++){
+                    System.out.print("* ");
+                }
+                System.out.println();
+            }
+        }
     
-    // static void pattern4(int n ){
-    //     for (int row = 1;row<=n;row++){
-    //         for(int col = 1;col<=row;col ++){
-    //             System.out.print(col+" ");
-    //         }
-    //         System.out.println();
-    //     }
-    // }
+    static void pattern4(int n ){
+        for (int row = 1;row<=n;row++){
+            for(int col = 1;col<=row;col ++){
+                System.out.print(col+" ");
+            }
+            System.out.println();
+        }
+    }
 
-    // static void pattern5(int n ){
-    //     for(int row = 1;row<= 2*n -1;row++){
-    //         int TotalNoOfColums = row > n ? 2*n - row : row;
-    //         for(int col = 1;col<= TotalNoOfColums;col++){
-    //             System.out.print(col + " ");
-    //             // System.out.print("* ");
-    //         }
-    //         System.out.println();
-    //     }}
+    static void pattern5(int n ){
+        for(int row = 1;row<= 2*n -1;row++){
+            int TotalNoOfColums = row > n ? 2*n - row : row;
+            for(int col = 1;col<= TotalNoOfColums;col++){
+                System.out.print(col + " ");
+                // System.out.print("* ");
+            }
+            System.out.println();
+        }}
 
         // static void pattern6(int n ){
         //     for(int row = 1;row<= 2*n -1;row++){
@@ -130,16 +130,28 @@ public class Pattern1 {
         //         System.out.println();
         //     }
         // }
-        static void pattern13(int n) {
-            int originalN = n;
-            n = 2 * n - 1;  // Adjust size to control the number of rows and columns
+        // static void pattern13(int n) {
+        //     int originalN = n;
+        //     n = 2 * n - 1;  // Adjust size to control the number of rows and columns
             
-            for (int row = 0; row < n; row++) {
-                for (int col = 0; col < n; col++) {
-                    int atEveryIndexValue = originalN - Math.min(Math.min(col, row), Math.min(n - col - 1, n - row - 1));
-                    System.out.print(atEveryIndexValue + " ");
+        //     for (int row = 0; row < n; row++) {
+        //         for (int col = 0; col < n; col++) {
+        //             int atEveryIndexValue = originalN - Math.min(Math.min(col, row), Math.min(n - col - 1, n - row - 1));
+        //             System.out.print(atEveryIndexValue + " ");
+        //         }
+        //         System.out.println();
+        //     }
+        // }
+
+        static void pattern14(int n ){
+            // pascal triangle
+            for (int i = 0; i < n; i++) {
+                int value = 1;
+                for (int j = 0; j <= 1; j++) {
+                    System.out.println(value);
+                    
                 }
-                System.out.println();
+                
             }
         }
         

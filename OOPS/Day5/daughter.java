@@ -6,13 +6,11 @@ public class daughter extends Parent {
         this.age = age;
     }
     @Override
-    void career(){
-        System.out.println("I'm gonna be a Doctor");
+    void career(){  
+       System.out.println("I'm gonna be a Doctor");
     }
     @Override
     void partner(){
-        System.out.println("I'm gonna marry jim Halpert");
+       System.out.println("I'm inevitable+");
     }
-
-    
 }

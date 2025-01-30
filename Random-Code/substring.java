@@ -21,11 +21,12 @@ public class substring {
             return false;
         }
 
+        //len1 - len2: The last possible starting index in str1 where str2 can fit completely.
         for (int i = 0; i <= len1 - len2; i++) {
             int j;
             for (j = 0; j < len2; j++) {
                 if(str1.charAt(i+j)!= str2.charAt(j)){
-                    break;
+                    break;// breaks the for loop
                 }
             }
 

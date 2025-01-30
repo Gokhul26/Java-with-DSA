@@ -1,8 +1,8 @@
 package OOPS.Day3.Polymorphism;
 
 public class sq extends sumation {
-    @Override
+    // @Override
     void area(){
-        System.out.println("Hi");
+        System.out.println("Hi square");
     }
 }

@@ -6,8 +6,4 @@ public class main {
 
         car.brake();
     }
-
-
-
-
 }

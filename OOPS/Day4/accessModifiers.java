@@ -1,7 +1,5 @@
 package OOPS.Day4;
 
-import Recursion.sumOfDigits;
-
 public class accessModifiers {
     int num, age;
     protected int nums =10;

@@ -5,7 +5,6 @@ public class Subclass extends accessModifiers{
     Subclass(int num, int age){
         super(num, age);
     }
-
     public static void main(String[] args) {
         Subclass obj = new Subclass(2,3);
         int n = obj.nums;
@@ -13,8 +12,6 @@ public class Subclass extends accessModifiers{
         System.out.println(obj instanceof Object);
         System.out.println(obj instanceof Subclass);
         System.out.println(obj.getClass());
-
-
     }
 }
 

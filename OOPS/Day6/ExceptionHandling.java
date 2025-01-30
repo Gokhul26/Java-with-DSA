@@ -16,12 +16,11 @@ public class ExceptionHandling {
                         System.out.println("this will always execute");
                     }
                 }
-            
-                private static int divide(int a, int b) throws ArithmeticException {
-                   if(b == 0){
-                    throw new ArithmeticException("dont divide by zero");
-                   }
-
-                   return a / b;
-                }
+                
+    private static int divide(int a, int b) throws ArithmeticException {
+        if(b == 0){
+        throw new ArithmeticException("dont divide by zero");
+        }
+        return a / b;
+    }
 }

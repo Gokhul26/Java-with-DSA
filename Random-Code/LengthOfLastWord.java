@@ -11,7 +11,7 @@ public class LengthOfLastWord {
    //      float faren = ( TemC*9/5) + 32;
    //      System.out.println(faren);
    //    input.close();
-
+            
       String s = "Hello World";
       // System.out.println(s.length());
 

@@ -78,8 +78,6 @@ public class CustomArrayList {
                     '}';
         }
 
-
-        
         public static void main(String[] args) {
         CustomArrayList list = new CustomArrayList();
 
