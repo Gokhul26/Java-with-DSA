@@ -21,6 +21,4 @@ public class DynamicStack extends Stack{
         return super.push(val);
 
     }
-    
-
 }

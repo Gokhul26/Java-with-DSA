@@ -2,7 +2,7 @@
 // KEEP THIS MAIN CLASS AT THE TOP WHEN COMPILING MULTIPLE CLASSES
 // -------------------
 import java.util.Scanner;
-public class Main {
+public class automorphic {
   public static void main(String[] args) {
 	Scanner s = new Scanner(System.in);
     int num = s.nextInt();
