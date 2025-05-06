@@ -1,0 +1,45 @@
+TEAM-1:
+1. Lokesh Krishna, 72763BIT303  
+2. Surya, 727622BIT037  
+3. Dineshwaran, 727622BCS039  
+4. Pavithra, 727622BCS  
+5. Siddarth, 727622BAD103  
+6. Boobesh, 727622BAD108  
+7. Sampath Raj, 727622BAM030  
+8. Raghu Dharshan, 727622BAM051  
+9. Sanjay, 727622BAM054  
+10.Sowrish, 727622BAM031  
+
+TEAM-2:
+1. D. Gokhul, 727622BIT096  
+2. S. Dharshan, 727623BIT302  
+3. Gayathri, 727622BIT060  
+4. Vigneshwaran, 727622BIT124  
+5. Akshay, 727622BIT114  
+6. Dharanidharan, 727622BCS088  
+7. Sanjai Amarnath, 727622BCS010  
+8. M. Pradeep, 727622BAM036  
+9. R. Pradeep, 727622BAM042  
+
+TEAM-3:
+1. Arvind Acharya, 727622BIT081  
+2. Sasi Vishnu, 727622BIT076  
+3. Siva Sankar, 727622BCS  
+4. Gokila Mani, 727622BCS066  
+5. Muthuvelan, 727622BCS079  
+6. Muppidathi, 727622BCS082  
+7. Ashef, 727622BAD028  
+8. Sreejith, 727622BAD102  
+9. Ridhan, 727623BAM304  
+10.Vasanth, 727622BAM001  
+
+TEAM-4:
+1. Dhanush Kumar, 727622BIT063  
+2. Santhosh Kumar, 727622BIT050  
+3. Manikandan, 727622BIT113  
+4. B. Subash, 727622BAD037  
+5. Praveen Kumar, 727622BAD098  
+6. Shanmuga Vishnu, 727622BAD084  
+7. Sriman Kabilan, 727622BAD118  
+8. Pranesh, 727622BAM032  
+9. Adithya, 727622BAM035  
