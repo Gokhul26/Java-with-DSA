@@ -1,4 +1,4 @@
-package DataStructures.Trees;
+package DataStructures.LinkedList;
 
 public class doublell {
     LLNode head;
